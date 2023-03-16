@@ -1,13 +1,13 @@
 # Copyright (c) 2020 Pete Johanson
 # SPDX-License-Identifier: MIT
 
-if BOARD_VIE65
+if BOARD_VIE01
 
 config BOARD
-	default "vie65"
+	default "vie01"
 
 config ZMK_KEYBOARD_NAME
-	default "VIE65 Bluetooth"
+	default "Big Switch"
 
 if USB
 
@@ -34,4 +34,4 @@ config ZMK_EXT_POWER
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
-endif # BOARD_VIE65
+endif # BOARD_VIE01
