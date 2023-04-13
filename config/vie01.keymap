@@ -21,8 +21,8 @@
 // |  CTL  |  WIN  |  ALT  |            SPACE              |  ALT  |  WIN  |  MO(1) |  CTL  |
 // ------------------------------------------------------------------------------------------
 			bindings = <
-	&kp RET        &rgb_ug RGB_TOG          &kp N2   
-	&kp TAB        &kp Q           &kp W   
+	&kp RET        &rgb_ug RGB_TOG          &kp N2   &kp N2 
+	&kp TAB        &kp Q           &kp W   &kp N2 
 			>;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -36,8 +36,8 @@
 // | TRNS  | TRNS  |  TRNS |             TRNS              | TRNS  |  TRNS |  TRNS | TRNS  |
 // ------------------------------------------------------------------------------------------
 			bindings = <
-	&kp ESC            &kp F1          &kp F2     
-	&rgb_ug RGB_EFF    &rgb_ug RGB_SAI &rgb_ug RGB_HUI 
+	&kp ESC            &kp F1          &kp F2     &kp N2 
+	&rgb_ug RGB_EFF    &rgb_ug RGB_SAI &rgb_ug RGB_HUI &kp N2 
 			>;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
